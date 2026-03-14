@@ -51,12 +51,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[14px] sm:text-[17px] max-w-3xl sm:leading-[30px] leading-1"
       >
-        Hi, I’m Shreyansh Shrivas — a passionate Frontend / Full Stack Developer
-        with hands-on experience in building modern, responsive web applications
-        using technologies like React.js, Tailwind CSS, Node.js, and MongoDB.
-        I’ve worked on real-world freelance projects and participated in
-        hackathons like ReImagine, where I pushed my creativity and technical
-        skills to the next level.
+        Hi — I’m Shreyansh Shrivas. I build modern, responsive web
+        applications as a Frontend / Full Stack Developer using React, Tailwind
+        CSS, Node.js, and MongoDB. I’ve delivered real-world freelance
+        projects and am also a self-taught ethical hacker with a solid
+        foundation in cybersecurity principles.
+
+        I learn quickly and collaborate well in teams — I enjoy tackling new
+        challenges and contributing to meaningful, user-focused projects.
+        Let’s connect and create something great together.
       </motion.p>
       <div className="mt-20 flex  flex-wrap gap-10">
         {services.map((service, index) => (
